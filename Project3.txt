@@ -1,0 +1,96 @@
+it was controlform but they change into untypedcontrol
+i don't have any video but this is formgroup which is similar to nested loop
+
+
+
+npm install --save-dev @angular-devkit/build-angular
+
+npm install --save-dev @angular-devkit/core
+
+https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-eclipse-git/
+https://code.visualstudio.com/docs/editor/github
+INSERT INTO product (id, quantity, price, description, image, name) VALUES (
+    1,
+    10,
+    20.00,
+    'A nice pair of headphones',
+    'https://i.insider.com/54eb437f6bb3f7697f85da71?width=1000&format=jpeg&auto=webp',
+    'Headphones'
+),
+(
+    2,
+    5,
+    45.00,
+    'A nice TeeShirt',
+    'https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png',
+    'TeeShirt'
+),
+(
+    3,
+    20,
+    2.50,
+    'A reusable shopping bag',
+    'https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png',
+    'Shopping Bag'
+),
+(
+    4,
+    20,
+    10.00,
+    'A fancy cap for a fancy person',
+    'https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png',
+    'Baseball Cap'
+),
+(
+    5,
+    3,
+    80.00,
+    'A nice coat',
+    'https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png',
+    'Coat'
+);
+
+INSERT INTO users (id, email, password, first_name, last_name) VALUES (
+    1,
+    'testuser@gmail.com',
+    'password',
+    'Test',
+    'User'
+);
+
+
+
+User.java
+ /*@OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
+    private List<Product> products = new ArrayList<>();
+
+    public void add(Product product){
+        if(product != null){
+            if(products == null){
+            	products = new ArrayList<>();
+            }
+            products.add(product);
+            product.setUser(this);
+        }*/
+
+
+e-commerce-frontend-angular-main
+
+
+CREATE TABLE `lrs`.`user_table` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(45) NOT NULL,
+  `password` VARCHAR(45) NOT NULL,
+  `first_name` VARCHAR(45) NULL,
+  `last_name` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `phone` BIGINT(10) NULL,
+  `role` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `email_UNIQUE` (`email` ASC) VISIBLE);
+
+
+https://drive.google.com/file/d/1qpZDyDteAHJc2bd8R7IJRFoF5bGwN-S6/view
+
+-------------------------
+https://docs.google.com/spreadsheets/d/1KHIigpCoQqst5ZYK4DYplJXk_WNKheqb2WlSDIkDto0/edit#gid=0
